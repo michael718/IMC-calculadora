@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="edtPeso" type="id" />
+    <item name="edtAltura" type="id" />
+    <item name="btnCalcular" type="id" />
+    <item name="txtNome" type="id" />
+    <item name="txtClassificacao" type="id" />
+    <item name="txtIMC" type="id" />
+    <item name="txtPesoAltura" type="id" />
+    <item name="btnVoltar" type="id" />
+</resources>
