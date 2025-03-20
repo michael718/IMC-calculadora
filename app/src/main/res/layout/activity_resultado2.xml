@@ -38,7 +38,8 @@
                 android:text="Nome"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                android:textColor="@android:color/black" />
+                android:textColor="@android:color/black"
+                android:paddingStart="16dp"/>
 
             <TextView
                 android:id="@+id/textViewHeaderDensidadeCorporal"
@@ -48,7 +49,8 @@
                 android:text="Classificação"
                 android:textSize="16sp"
                 android:textStyle="bold"
-                android:textColor="#757575" />
+                android:textColor="#757575"
+                android:paddingStart="16dp"/>
 
             <TextView
                 android:id="@+id/textViewResultadoDensidadeCorporal"
@@ -57,7 +59,8 @@
                 android:layout_marginTop="8dp"
                 android:text="Seu IMC: 0.0"
                 android:textSize="16sp"
-                android:textColor="#616161" />
+                android:textColor="#616161"
+                android:paddingStart="16dp"/>
 
             <TextView
                 android:id="@+id/textViewPeso"
@@ -65,7 +68,8 @@
                 android:layout_height="wrap_content"
                 android:text="Seu Peso: 0.0"
                 android:textSize="16sp"
-                android:textColor="#616161" />
+                android:textColor="#616161"
+                android:paddingStart="16dp"/>
 
             <TextView
                 android:id="@+id/textViewAltura"
@@ -73,7 +77,8 @@
                 android:layout_height="wrap_content"
                 android:text="Sua Altura: 0.0"
                 android:textSize="16sp"
-                android:textColor="#616161" />
+                android:textColor="#616161"
+                android:paddingStart="16dp"/>
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 

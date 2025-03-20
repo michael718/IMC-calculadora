@@ -34,7 +34,7 @@ class ResultadoActivity : AppCompatActivity() {
         imc?.let {
             titleDensidadeCorporal.text = it.nome.toString()
             textViewHeaderDensidadeCorporal.text = it.calcular()
-            textViewResultadoDensidadeCorporal.text = "Seu IMC: %.2f".format(it.imc)
+            textViewResultadoDensidadeCorporal.text = "Seu IMC: %.2f".format(it.imc).replace('.', ',')
             textViewPeso.text = "Seu Peso: %.1f".format(it.peso)
             textViewAltura.text = "Sua Altura: %.1f".format(it.altura)
         }
